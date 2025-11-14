@@ -1,5 +1,5 @@
 # CSCI522---Physics
-##Implementing a rudimentary Physics Engine to handle Box vs Sphere Collisions as well as Gravity within a Custom Engine for USC's CSCI-522
+## Implementing a rudimentary Physics Engine to handle Box vs Sphere Collisions as well as Gravity within a Custom Engine for USC's CSCI-522
 
 In order to implement Box vs Sphere Collision, we first need to maintain a list of rigidbodies that have physics enabled. 
 This can be done within *PhysicsManager.cpp/.h* as *m_physicsInstances*, which is an array of physicsComponents.  
