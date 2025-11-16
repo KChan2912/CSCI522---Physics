@@ -29,3 +29,5 @@ We can use the dot product of the normal with the vector from the center of the 
 As for gravity, we check if the soldier’s feet are colliding with a floor. 
 Since the floor also has a hitbox of box type, we simply reuse the calculated point of collision above, but this time with the player’s feet. 
 If there is a collision at the player’s feet, we can flip the bool to true, else we apply a downward force at the very end, after all possible collisions have been checked.
+
+https://github.com/user-attachments/assets/118e8928-11a2-4a81-aa40-8605d8f46f59
